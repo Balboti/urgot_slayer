@@ -24,25 +24,25 @@ const weapons = [
 ];
 const monsters = [
   {
-    name: "slime",
+    name: "Krug",
     level: 2,
     health: 15
   },
   {
-    name: "fanged beast",
+    name: "Gromp",
     level: 8,
     health: 60
   },
   {
-    name: "dragon",
+    name: "Urgot",
     level: 20,
     health: 300
   }
 ]
 const locations = [
   {
-    name: "town square",
-    "button text": ["Go to store", "Go to cave", "Fight dragon"],
+    name: "base",
+    "button text": ["Go to shop", "Go to JG", "Go to Top"],
     "button functions": [goStore, goCave, fightDragon],
     text: "You are in the town square. You see a sign that says \"Store\"."
   },
